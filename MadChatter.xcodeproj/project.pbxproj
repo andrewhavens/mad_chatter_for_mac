@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494CBB8414B55A9C001F044B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494CBB8314B55A9C001F044B /* Cocoa.framework */; };
+		494CBB8614B55A9C001F044B /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494CBB8514B55A9C001F044B /* MacRuby.framework */; };
+		494CBB8D14B55A9C001F044B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB8B14B55A9C001F044B /* InfoPlist.strings */; };
+		494CBB8F14B55A9C001F044B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CBB8E14B55A9C001F044B /* main.m */; };
+		494CBB9414B55A9D001F044B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB9214B55A9D001F044B /* MainMenu.xib */; };
+		494CBB9714B55A9D001F044B /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB9614B55A9D001F044B /* rb_main.rb */; };
+		494CBB9914B55A9D001F044B /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB9814B55A9D001F044B /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		494CBB7F14B55A9C001F044B /* MadChatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadChatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CBB8314B55A9C001F044B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		494CBB8514B55A9C001F044B /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		494CBB8A14B55A9C001F044B /* MadChatter-Info.plist */ = {isa = PBXFileReference; path = "MadChatter-Info.plist"; sourceTree = "<group>"; };
+		494CBB8C14B55A9C001F044B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		494CBB8E14B55A9C001F044B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494CBB9014B55A9C001F044B /* MadChatter-Prefix.pch */ = {isa = PBXFileReference; path = "MadChatter-Prefix.pch"; sourceTree = "<group>"; };
+		494CBB9314B55A9D001F044B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		494CBB9614B55A9D001F044B /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		494CBB9814B55A9D001F044B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494CBB7C14B55A9C001F044B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CBB8414B55A9C001F044B /* Cocoa.framework in Frameworks */,
+				494CBB8614B55A9C001F044B /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494CBB7414B55A9C001F044B = {
+			isa = PBXGroup;
+			children = (
+				494CBB8814B55A9C001F044B /* MadChatter */,
+				494CBB8214B55A9C001F044B /* Frameworks */,
+				494CBB8014B55A9C001F044B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494CBB8014B55A9C001F044B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494CBB7F14B55A9C001F044B /* MadChatter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494CBB8214B55A9C001F044B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494CBB8314B55A9C001F044B /* Cocoa.framework */,
+				494CBB8514B55A9C001F044B /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494CBB8814B55A9C001F044B /* MadChatter */ = {
+			isa = PBXGroup;
+			children = (
+				494CBB9814B55A9D001F044B /* AppDelegate.rb */,
+				494CBB9114B55A9D001F044B /* Resources */,
+				494CBB9514B55A9D001F044B /* Other Sources */,
+				494CBB8914B55A9C001F044B /* Supporting Files */,
+			);
+			path = MadChatter;
+			sourceTree = "<group>";
+		};
+		494CBB8914B55A9C001F044B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494CBB8A14B55A9C001F044B /* MadChatter-Info.plist */,
+				494CBB8B14B55A9C001F044B /* InfoPlist.strings */,
+				494CBB8E14B55A9C001F044B /* main.m */,
+				494CBB9014B55A9C001F044B /* MadChatter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494CBB9114B55A9D001F044B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				494CBB9214B55A9D001F044B /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		494CBB9514B55A9D001F044B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				494CBB9614B55A9D001F044B /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		494CBB8714B55A9C001F044B /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 494CBB9F14B55A9D001F044B /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		494CBB7E14B55A9C001F044B /* MadChatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CBB9C14B55A9D001F044B /* Build configuration list for PBXNativeTarget "MadChatter" */;
+			buildPhases = (
+				494CBB7B14B55A9C001F044B /* Sources */,
+				494CBB7C14B55A9C001F044B /* Frameworks */,
+				494CBB7D14B55A9C001F044B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadChatter;
+			productName = MadChatter;
+			productReference = 494CBB7F14B55A9C001F044B /* MadChatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494CBB7614B55A9C001F044B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Devout Design";
+			};
+			buildConfigurationList = 494CBB7914B55A9C001F044B /* Build configuration list for PBXProject "MadChatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 494CBB7414B55A9C001F044B;
+			productRefGroup = 494CBB8014B55A9C001F044B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494CBB7E14B55A9C001F044B /* MadChatter */,
+				494CBB8714B55A9C001F044B /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494CBB7D14B55A9C001F044B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CBB8D14B55A9C001F044B /* InfoPlist.strings in Resources */,
+				494CBB9414B55A9D001F044B /* MainMenu.xib in Resources */,
+				494CBB9714B55A9D001F044B /* rb_main.rb in Resources */,
+				494CBB9914B55A9D001F044B /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494CBB7B14B55A9C001F044B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CBB8F14B55A9C001F044B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		494CBB8B14B55A9C001F044B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494CBB8C14B55A9C001F044B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		494CBB9214B55A9D001F044B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494CBB9314B55A9D001F044B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494CBB9A14B55A9D001F044B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		494CBB9B14B55A9D001F044B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		494CBB9D14B55A9D001F044B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadChatter/MadChatter-Prefix.pch";
+				INFOPLIST_FILE = "MadChatter/MadChatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		494CBB9E14B55A9D001F044B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadChatter/MadChatter-Prefix.pch";
+				INFOPLIST_FILE = "MadChatter/MadChatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		494CBBA014B55A9D001F044B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		494CBBA114B55A9D001F044B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494CBB7914B55A9C001F044B /* Build configuration list for PBXProject "MadChatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CBB9A14B55A9D001F044B /* Debug */,
+				494CBB9B14B55A9D001F044B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494CBB9C14B55A9D001F044B /* Build configuration list for PBXNativeTarget "MadChatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CBB9D14B55A9D001F044B /* Debug */,
+				494CBB9E14B55A9D001F044B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		494CBB9F14B55A9D001F044B /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CBBA014B55A9D001F044B /* Debug */,
+				494CBBA114B55A9D001F044B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494CBB7614B55A9C001F044B /* Project object */;
+}
