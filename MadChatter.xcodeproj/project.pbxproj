@@ -14,19 +14,37 @@
 		494CBB9414B55A9D001F044B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB9214B55A9D001F044B /* MainMenu.xib */; };
 		494CBB9714B55A9D001F044B /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB9614B55A9D001F044B /* rb_main.rb */; };
 		494CBB9914B55A9D001F044B /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 494CBB9814B55A9D001F044B /* AppDelegate.rb */; };
+		494CBBA814B55C53001F044B /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 494CBBA714B55C53001F044B /* Growl Registration Ticket.growlRegDict */; };
+		494CBBAA14B55C71001F044B /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494CBBA914B55C71001F044B /* Growl.framework */; };
+		494CBBAC14B55F42001F044B /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494CBBA914B55C71001F044B /* Growl.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		494CBBAB14B55E78001F044B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				494CBBAC14B55F42001F044B /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		494CBB7F14B55A9C001F044B /* MadChatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadChatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494CBB8314B55A9C001F044B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		494CBB8514B55A9C001F044B /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		494CBB8A14B55A9C001F044B /* MadChatter-Info.plist */ = {isa = PBXFileReference; path = "MadChatter-Info.plist"; sourceTree = "<group>"; };
+		494CBB8A14B55A9C001F044B /* MadChatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadChatter-Info.plist"; sourceTree = "<group>"; };
 		494CBB8C14B55A9C001F044B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		494CBB8E14B55A9C001F044B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		494CBB9014B55A9C001F044B /* MadChatter-Prefix.pch */ = {isa = PBXFileReference; path = "MadChatter-Prefix.pch"; sourceTree = "<group>"; };
+		494CBB9014B55A9C001F044B /* MadChatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadChatter-Prefix.pch"; sourceTree = "<group>"; };
 		494CBB9314B55A9D001F044B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		494CBB9614B55A9D001F044B /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		494CBB9814B55A9D001F044B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		494CBBA714B55C53001F044B /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		494CBBA914B55C71001F044B /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			files = (
 				494CBB8414B55A9C001F044B /* Cocoa.framework in Frameworks */,
 				494CBB8614B55A9C001F044B /* MacRuby.framework in Frameworks */,
+				494CBBAA14B55C71001F044B /* Growl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,7 @@
 		494CBB8214B55A9C001F044B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				494CBBA914B55C71001F044B /* Growl.framework */,
 				494CBB8314B55A9C001F044B /* Cocoa.framework */,
 				494CBB8514B55A9C001F044B /* MacRuby.framework */,
 			);
@@ -82,6 +102,7 @@
 		494CBB8914B55A9C001F044B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				494CBBA714B55C53001F044B /* Growl Registration Ticket.growlRegDict */,
 				494CBB8A14B55A9C001F044B /* MadChatter-Info.plist */,
 				494CBB8B14B55A9C001F044B /* InfoPlist.strings */,
 				494CBB8E14B55A9C001F044B /* main.m */,
@@ -132,6 +153,7 @@
 				494CBB7B14B55A9C001F044B /* Sources */,
 				494CBB7C14B55A9C001F044B /* Frameworks */,
 				494CBB7D14B55A9C001F044B /* Resources */,
+				494CBBAB14B55E78001F044B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -178,6 +200,7 @@
 				494CBB9414B55A9D001F044B /* MainMenu.xib in Resources */,
 				494CBB9714B55A9D001F044B /* rb_main.rb in Resources */,
 				494CBB9914B55A9D001F044B /* AppDelegate.rb in Resources */,
+				494CBBA814B55C53001F044B /* Growl Registration Ticket.growlRegDict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +288,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -281,6 +305,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
