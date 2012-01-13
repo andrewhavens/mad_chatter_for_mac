@@ -17,6 +17,7 @@
 		494CBBA814B55C53001F044B /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 494CBBA714B55C53001F044B /* Growl Registration Ticket.growlRegDict */; };
 		494CBBAA14B55C71001F044B /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494CBBA914B55C71001F044B /* Growl.framework */; };
 		494CBBAC14B55F42001F044B /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494CBBA914B55C71001F044B /* Growl.framework */; };
+		498F4E9314BF92BA00339D2E /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 498F4E9214BF92BA00339D2E /* AppConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		494CBB9814B55A9D001F044B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		494CBBA714B55C53001F044B /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		494CBBA914B55C71001F044B /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		498F4E9214BF92BA00339D2E /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				494CBB8B14B55A9C001F044B /* InfoPlist.strings */,
 				494CBB8E14B55A9C001F044B /* main.m */,
 				494CBB9014B55A9C001F044B /* MadChatter-Prefix.pch */,
+				498F4E9214BF92BA00339D2E /* AppConfig.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				494CBB9714B55A9D001F044B /* rb_main.rb in Resources */,
 				494CBB9914B55A9D001F044B /* AppDelegate.rb in Resources */,
 				494CBBA814B55C53001F044B /* Growl Registration Ticket.growlRegDict in Resources */,
+				498F4E9314BF92BA00339D2E /* AppConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +351,7 @@
 				494CBB9E14B55A9D001F044B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494CBB9F14B55A9D001F044B /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -355,6 +360,7 @@
 				494CBBA114B55A9D001F044B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
